@@ -473,47 +473,6 @@
     font-size: 0.8rem;
   }
 
-  /* Timeline */
-
-  .main-timeline .date-content {
-    width: 100%;
-    float: none;
-    margin-top: 20px;
-  }
-
-  .main-timeline .date-content:before {
-    display: none;
-  }
-
-  .main-timeline .date-outer {
-    width: 100px;
-    height: 100px;
-  }
-
-  .main-timeline .date-outer:before,
-  .main-timeline .date-outer:after {
-    width: 100px;
-    height: 100px;
-  }
-
-  .main-timeline .date {
-    top: 30%;
-  }
-
-  .main-timeline .year {
-    font-size: 20px;
-  }
-
-  .main-timeline .timeline-content {
-    width: 100%;
-    text-align: center;
-    padding: 10px 0;
-  }
-
-  .main-timeline .title {
-    font-size: 16px;
-  }
-
   /* Others */
   .about-mf .about-img img {
     width: 100%;
@@ -550,5 +509,14 @@
         display: none;
       }
     }
+  }
+}
+
+/* svg */
+
+@media only screen and (max-width: 767px) {
+  svg {
+    width: 100%;
+    height: auto;
   }
 }
