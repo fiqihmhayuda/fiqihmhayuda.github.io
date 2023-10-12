@@ -518,10 +518,5 @@
   svg {
     width: 100%;
     height: auto;
-    min-width: 100px;
-    max-width: 300px;
-    /* Rasio aspek */
-    min-height: 300px;
-    max-height: 600px;
   }
 }
