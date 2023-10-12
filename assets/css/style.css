@@ -83,6 +83,7 @@
 }
 
 .about-mf .about-img {
+  width: 100%;
   margin-bottom: 2rem;
 }
 
@@ -515,8 +516,9 @@
 
   /* Others */
   .about-mf .about-img img {
-    width: 50%;
+    width: 100%;
     max-width: 300px;
+    margin: 10px 0;
   }
 
   .about-mf .title-s {
