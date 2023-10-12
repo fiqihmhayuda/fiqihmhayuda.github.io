@@ -450,6 +450,9 @@
   box-shadow: 0 1rem 3rem rgba(132,138,163,0.1) !important;
 }
 
+
+/* responsiv ceritanya */
+
 @media only screen and (max-width: 767px) {
   /* Experience */
 
@@ -511,6 +514,10 @@
   }
 
   /* Others */
+  .about-mf .about-img img {
+    width: 50%;
+    max-width: 300px;
+  }
 
   .about-mf .title-s {
     font-size: 1rem;
