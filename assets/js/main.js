@@ -1,7 +1,3 @@
-// // js test
-
-// $(function(){
-
 // navbar ilang
     var nav = document.querySelector('nav');
 
@@ -12,22 +8,7 @@
          nav.classList.remove('bs-dark-bg-subtle', 'shadow');
      }
 });
-
-// hamburger
-
-    // const hamburger = document.querySelector(".hamburger");
-    // const navbarToogler = document.querySelector(".navbar-toogler");
-
-    // hamburger.addEventListener("click", () => {
-    //     hamburger.classList.toggle("active");
-    //     navbarToogler.classList.toggle("active");
-    // })
-
-    // document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", ()=>{
-    //     hamburger.classList.remove("active");
-    //     navbarToogler.classList.remove("active");
-    // }))
-
+// navbar ilang ketika di klik
     const navbarCollapse = document.querySelector('#navbarNav');
 
         // Add a click event listener to the navbar collapse
@@ -46,9 +27,7 @@
     document.querySelector('.navbar').classList.remove('open');
 });
 
-
-// text nya coba
-
+// animasi tulisan
     var typed = new Typed(".typing", {
         strings: ["Software Engineer", "Front-end Developer"],
         typeSpeed: 100,
@@ -56,8 +35,5 @@
         loop: true
 });
 
-// });
-
-// scrol top
 
 

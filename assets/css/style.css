@@ -1,10 +1,5 @@
 
 /* ini bagian about bagian nama dllnya */
-.title-s {
-  font-weight: 600;
-  color: #1e1e1e;
-  font-size: 1.1rem;
-}
 
 /*--/ CSS nya experience /--*/
 
@@ -30,6 +25,12 @@
 }
 
 /*--/ CSSnya About /--*/
+.title-s {
+  font-weight: 600;
+  color: #1e1e1e;
+  font-size: 1.1rem;
+}
+
 
 .title-box-2 {
   margin-bottom: 3rem;
@@ -57,65 +58,8 @@
     width: 100%;
     height:100vh;
     background: hsl(215, 5%, 46%);
+    z-index: -1000;
 }
-
-
-/* hamburger css */
-
-/* .hamburger {
-  display: none;
-  cursor: pointer;
-}
-
-.bar {
- display: block;
- width: 25px;
- height: 3px;
- margin: 5px auto;
- -webkit-transition: all 0.3s ease-in-out;
- transition: all 0.3s ease-in-out;
- background-color: #ced4da;
-}
-
-@media(max-width:768px){
-  .hamburger{
-    display: block;
-  }
-
-  .hamburger.active .bar:nth-child(2){
-    opacity: 0;
-  }
-
-  .hamburger.active .bar:nth-child(1){
-    transform: translateY(8px) rotate(45deg);
-  }
-
-  .hamburger.active .bar:nth-child(3){
-    transform: translateY(-8px) rotate(-45deg);
-  }
-
-  .navbar-item{
-    position: fixed;
-    left: -100%;
-    top: 70px;
-    gap: 0;
-    flex-direction: column;
-    background-color: #ced4da;
-    width: 100%;
-    text-align: center;
-    transition: 0.3s;
-  }
-
-  .nav-link {
-    margin: 16px 0;
-
-  }
-
-  .navbar-item.active {
-    left: 0;
-  }
-} */
-
 
 
 /* .container{
@@ -124,7 +68,6 @@
 
 .jumbotron {
   padding-top: 10rem;
-  position: relative;
 }
 
 .section {
