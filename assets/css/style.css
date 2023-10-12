@@ -1,6 +1,3 @@
-
-/* ini bagian about bagian nama dllnya */
-
 /*--/ CSS nya experience /--*/
 
 .title-box {
@@ -453,4 +450,81 @@
   box-shadow: 0 1rem 3rem rgba(132,138,163,0.1) !important;
 }
 
-/* scrol top */
+@media only screen and (max-width: 767px) {
+  /* Experience */
+
+  .title-a {
+    font-size: 2rem;
+  }
+
+  .experience-box {
+    padding: 2rem 0.5rem;
+  }
+
+  .s-title {
+    font-size: 1.2rem;
+  }
+
+  .s-description {
+    font-size: 0.8rem;
+  }
+
+  /* Timeline */
+
+  .main-timeline .date-content {
+    width: 100%;
+    float: none;
+    margin-top: 20px;
+  }
+
+  .main-timeline .date-content:before {
+    display: none;
+  }
+
+  .main-timeline .date-outer {
+    width: 100px;
+    height: 100px;
+  }
+
+  .main-timeline .date-outer:before,
+  .main-timeline .date-outer:after {
+    width: 100px;
+    height: 100px;
+  }
+
+  .main-timeline .date {
+    top: 30%;
+  }
+
+  .main-timeline .year {
+    font-size: 20px;
+  }
+
+  .main-timeline .timeline-content {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .main-timeline .title {
+    font-size: 16px;
+  }
+
+  /* Others */
+
+  .about-mf .title-s {
+    font-size: 1rem;
+  }
+
+  .jumbotron {
+    padding-top: 5rem;
+  }
+
+  .section {
+    padding-top: 3rem;
+  }
+
+  #about {
+    padding-top: 8rem;
+  }
+}
