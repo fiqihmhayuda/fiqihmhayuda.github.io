@@ -518,7 +518,6 @@
 
   .jumbotron {
     padding-top: 10rem;
-    position: relative;
   }
 
   .section {
@@ -526,6 +525,6 @@
   }
 
   #about {
-    padding-top: 8rem;
+    padding-top: 12rem;
   }
 }
