@@ -78,8 +78,8 @@
 }
 
 .about-mf .box-shadow-full {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 
 .about-mf .about-img {
@@ -525,6 +525,6 @@
   }
 
   #about {
-    padding-top: 12rem;
+    padding-top: 8rem;
   }
 }
