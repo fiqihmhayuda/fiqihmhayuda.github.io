@@ -520,3 +520,21 @@
     height: auto;
   }
 }
+/* responsiv cn */
+@media (max-width: 991px) {
+  .max-width{
+      padding: 0 50px;
+  }
+}
+@media (max-width: 947px){
+
+}
+
+@media (max-width: 690px) {
+
+}
+
+@media (max-width: 500px) {
+
+}
+
