@@ -499,8 +499,7 @@
 
   .navbar-brand{
     font-size: 1rem;
-  } 
-
+  }
   .title-a {
     font-size: 2rem;
   }
@@ -532,7 +531,7 @@
     padding-top: 12rem;
   }
 
-  .jumbotron h1 {
+  .jumbotron h1{
     font-size: 1.5rem;
   }
 
@@ -543,6 +542,10 @@
   #about {
     padding-top: 10rem;
   }
+}
+
+@media only screen and (max-width: 767px) {
+  /* Tampilan mobile */
 
   #particles-js {
     width: 100%;
@@ -553,26 +556,17 @@
         display: none;
       }
     }
-
-    svg {
-      width: 100%;
-      height: auto;
-    }
   }
 }
 
-/* @media only screen and (max-width: 767px) { */
-  /* Tampilan mobile */
-
-  
-/* } */
-
 /* svg */
 
-/* @media only screen and (max-width: 767px) {
-  
-} */
-
+@media only screen and (max-width: 767px) {
+  svg {
+    width: 100%;
+    height: auto;
+  }
+}
 /* responsiv cn */
 @media (max-width: 991px) {
   .max-width{
