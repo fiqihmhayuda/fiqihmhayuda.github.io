@@ -543,7 +543,7 @@
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 767px) {
   /* Tampilan mobile */
 
   #particles-js {
