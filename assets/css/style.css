@@ -528,7 +528,7 @@
   }
 
   .jumbotron {
-    padding-top: 8rem;
+    padding-top: 12rem;
   }
 
   .jumbotron h1 {
@@ -557,6 +557,9 @@
         display: none;
       }
     }
+  }
+  #about {
+    padding-top: 2rem;
   }
 }
 
