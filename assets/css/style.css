@@ -54,7 +54,7 @@
     left: 0;
     width: 100%;
     height:100vh;
-    background: hsl(215, 5%, 46%);
+    background:#9ec5fe;
 }
 
 
@@ -102,7 +102,7 @@
 #skills{
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color:#ced4da;
+  background-color:#9ec5fe;
   color: #1e1e1e;
 }
 
@@ -394,7 +394,7 @@
 /* projects */
 #projects{
   padding-top: 2rem;
-  background-color:#ced4da;
+  background-color:#9ec5fe;
   color: #1e1e1e;
 }
 
