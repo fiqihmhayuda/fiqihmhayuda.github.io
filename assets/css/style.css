@@ -543,6 +543,15 @@
   }
 }
 
+@media (max-width: 767px) {
+  #particles-js {
+    /* Mengurangi jumlah partikel dan kecepatan partikel pada perangkat yang lebih kecil. */
+    particle:nth-child(-n + 1) {
+      display: none;
+    }
+  }
+}
+
 @media only screen and (max-width: 767px) {
   /* Tampilan mobile */
 

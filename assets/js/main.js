@@ -1,4 +1,23 @@
+$(window).resize(function() {
+    // Mendapatkan ukuran layar saat ini.
+    var width = $(window).width();
+    var height = $(window).height();
+  
+    // Mengatur jumlah partikel berdasarkan ukuran layar.
+    var numParticles = Math.floor((width * height) / 1000);
+  
+    // Mengatur kecepatan partikel berdasarkan ukuran layar.
+    var particleSpeed = Math.min(width, height) / 100;
+  
+    // Mengatur jumlah partikel dan kecepatan partikel.
+    particlesJS.particles.particles.number = numParticles;
+    particlesJS.particles.particles.speed = particleSpeed;
+});
+
+
 // navbar ilang
+
+
     var nav = document.querySelector('nav');
 
         window.addEventListener('scroll', function() {
@@ -34,6 +53,7 @@
         backSpeed: 60,
         loop: true
 });
+
 
 
 
