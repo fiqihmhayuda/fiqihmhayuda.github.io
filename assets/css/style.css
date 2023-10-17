@@ -517,10 +517,14 @@
   }
 
   /* Others */
+  #about {
+    padding-top: 1.5rem;
+  }
+  
   .about-mf .about-img img {
     width: 100%;
     max-width: 500px;
-    margin: 10px 0;
+    padding: 2rem;
   }
 
   .about-mf .title-s {
@@ -528,7 +532,7 @@
   }
 
   .jumbotron {
-    padding-top: 14rem;
+    padding-top: 12rem;
   }
 
   .jumbotron h1 {
@@ -538,9 +542,7 @@
     padding-top: 8rem;
   }
 
-  #about {
-    padding-top: 10rem;
-  }
+ 
 }
 
 @media (max-width: 767px) {
