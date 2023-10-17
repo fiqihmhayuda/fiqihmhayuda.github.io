@@ -499,6 +499,7 @@
 
   .jumbotron {
     padding-top: 12rem;
+    max-width: 500px;
   }
 
   .jumbotron h1 {
@@ -529,15 +530,15 @@
 
   /* Others */
   #about {
-    padding-top: 12rem;
+    padding-top: 14rem;
   }
   
   .about-mf .about-img img {
     width: 100%;
     max-width: 500px;
     padding: 2rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   .about-mf .title-s {
