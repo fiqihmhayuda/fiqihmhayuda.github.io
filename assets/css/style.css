@@ -74,7 +74,7 @@
 /* about css */
 
 #about{
-  padding-top: 14rem;
+  padding-top: 13rem;
 }
 
 .about-mf .box-shadow-full {
@@ -499,7 +499,7 @@
 
   .jumbotron {
     padding-top: 12rem;
-    max-width: 500px;
+    max-width: 600px;
   }
 
   .jumbotron h1 {
@@ -530,12 +530,12 @@
 
   /* Others */
   #about {
-    padding-top: 14rem;
+    padding-top: 2rem;
   }
   
   .about-mf .about-img img {
     width: 100%;
-    max-width: 500px;
+    max-width: 600px;
     padding: 2rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
