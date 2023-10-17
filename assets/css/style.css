@@ -497,6 +497,17 @@
 @media only screen and (max-width: 767px) {
   /* Experience */
 
+  .jumbotron {
+    padding-top: 12rem;
+  }
+
+  .jumbotron h1 {
+    font-size: 1.5rem;
+  }
+  .section {
+    padding-top: 6rem;
+  }
+  
   .navbar-brand {
     font-size: 1rem;
   }
@@ -518,30 +529,20 @@
 
   /* Others */
   #about {
-    padding-top: 1.5rem;
+    padding-top: 8rem;
   }
   
   .about-mf .about-img img {
     width: 100%;
     max-width: 500px;
     padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .about-mf .title-s {
     font-size: 1rem;
   }
-
-  .jumbotron {
-    padding-top: 12rem;
-  }
-
-  .jumbotron h1 {
-    font-size: 1.5rem;
-  }
-  .section {
-    padding-top: 8rem;
-  }
-
  
 }
 
