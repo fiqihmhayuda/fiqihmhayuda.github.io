@@ -54,7 +54,7 @@
     left: 0;
     width: 100%;
     height:100vh;
-    background: #c7c7c7;
+    background: #000000;
 }
 
 
@@ -109,18 +109,11 @@
 
 .skill-card {
   padding: 1.5rem 0.5rem;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
   height: 100%;
   
 }
 
-.skill-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-}
 
 .skill-icon {
   width: 60px;
@@ -450,12 +443,6 @@
   }
 }
 
-/* projects */
-/* #projects{
-  padding-top: 2rem;
-  background-color:#18dcff;
-  color: #1e1e1e;
-} */
 
 /* Projects Section Enhancement */
 #projects {
@@ -800,32 +787,6 @@
   }
 }
 
-/* svg */
-
-/* @media only screen and (max-width: 767px) {
-  svg {
-    width: 100%;
-    height: 100%;
-    padding-top: 8%;
-  }
-} */
-/* responsiv cn */
-/* @media (max-width: 991px) {
-  .max-width{
-      padding: 0 50px;
-  }
-}
-@media (max-width: 947px){
-
-}
-
-@media (max-width: 690px) {
-
-}
-
-@media (max-width: 500px) {
- 
-} */
 
 
 /* Custom Hamburger Menu with Checkbox Style */
@@ -859,7 +820,7 @@
   display: block;
   width: 100%;
   height: 3px;
-  background-color: #000;
+  background-color: #ffffff;
   border-radius: 3px;
   position: absolute;
   left: 0;
@@ -910,41 +871,53 @@
 }
 
 /* Navbar menu items styling */
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7) !important; /* Semi-transparan hitam */
+    backdrop-filter: blur(10px); /* Efek blur */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
 .navbar-nav .nav-link {
-  display: flex;
-  align-items: center;
-  padding: 10px 15px;
-  margin: 2px 0;
-  border-radius: 5px;
-  transition: all 0.3s ease;
-  position: relative;
+    color: rgba(255, 255, 255, 0.9) !important;
+    border-radius: 5px;
 }
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-  background-color: rgba(41, 47, 48, 0.1);
+    color: #ffffff !important;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    
 }
 
 .navbar-nav .nav-link i {
   margin-right: 8px;
   font-size: 1.1rem;
+  border-radius: 5px;
 }
 
 /* Mobile menu specific styles */
 @media (max-width: 991px) {
   .navbar-collapse {
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.9) !important;
     border-radius: 10px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     padding: 15px;
     margin-top: 10px;
-    border: 1px solid #eee;
+    border: 1px solid rgba(255, 255, 255, 0.1);
   }
   
   .navbar-nav .nav-link {
     padding: 12px 20px;
     margin: 5px 0;
-    border: 1px solid #eee;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.9) !important;
   }
   
 }
